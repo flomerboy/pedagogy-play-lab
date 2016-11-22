@@ -10,11 +10,25 @@
    Base styles: opinionated defaults
    ========================================================================== */
 
-h1{
+h1 {
   line-height: .9em;
   font-size: 7em;
   margin: 0;
   margin-left: -3px;
+}
+
+h2.reading-name {
+  -webkit-margin-before: 0em;
+}
+
+h2.reading-name span {
+  font-weight: 100;
+}
+
+h4.week-number{
+  margin-bottom: 0px;
+  -webkit-margin-after: 0em;
+  font-weight: 100;
 }
 
 html {
@@ -29,18 +43,18 @@ body {
     max-width: 450px;
     margin: auto;
     color: #FFFFFF;
-    font-family:"Apercu Regular", Calibri, Roboto, sans-serif; 
-    font-size-adjust:0.508; 
-    font-weight:normal; 
-    font-style:normal; 
+    font-family:"Apercu Regular", Calibri, Roboto, sans-serif;
+    font-size-adjust:0.508;
+    font-weight:100;
+    font-style:normal;
 }
 
-p.u-mono { 
+p.u-mono {
     color: #FFFFFF;
-    font-family:"Apercu Mono Regular", 'Andale Mono', monospace; 
-    font-size-adjust:0.5; 
-    font-weight:normal; 
-    font-style:normal; 
+    font-family:"Apercu Mono Regular", 'Andale Mono', monospace;
+    font-size-adjust:0.5;
+    font-weight:normal;
+    font-style:normal;
 }
 a {
     color: #FFFFFF;
