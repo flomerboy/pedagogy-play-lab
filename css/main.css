@@ -10,6 +10,12 @@
    Base styles: opinionated defaults
    ========================================================================== */
 
+ul {
+  padding: 0;
+  margin-top: 0;
+  margin-left: 1rem;
+}
+
 h1, h2, h3, h4, p {
     -webkit-margin-before: 0em;
     -webkit-margin-after: 0em;
@@ -38,7 +44,7 @@ h2.reading-name {
 }
 
 h4.week-number{
-  font-size: .8em;
+  font-size: .5em;
   margin-bottom: 0px;
   -webkit-margin-after: 0em;
   margin-top: 10%;
@@ -47,6 +53,8 @@ h4.week-number{
   padding-top: 12px;
   padding-bottom: -.25em;
   font-family: 'Raleway', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 1px;
 }
 
 .date{
@@ -91,7 +99,7 @@ a {
 }
 
 button  {
-    border: 2px solid #FFFFFF;
+    border: 2px dotted #FFFFFF;
     padding: 10px 10px;
     text-align: center;
     background-color: rgba(0,0,0,0);
@@ -100,6 +108,10 @@ button  {
     margin-right: 1em;
     border-radius: 10px;
     margin-top: 8px;
+}
+
+button.archive  {
+    border: 2px solid rgba(255,255,255,.5);
 }
 
 button:focus {outline:0;}
@@ -192,16 +204,36 @@ textarea {
     }
  }
 
+.archive {
+  color: rgba(255,255,255,.5);
+}
 
+.mar-top-sm {
+  margin-top: 1rem;
+}
 
+.mar-top-m {
+  margin-top: 3rem;
+}
 
+.mar-top-lg {
+  margin-top: 6rem;
+}
 
+.inline-link {
+  color: #FFbc00;
+}
 
+.all-caps-tracked-out {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: bold;
+  font-size: .75rem;
+}
 
-
-
-
-
+.inline-link:hover {
+  text-decoration: underline;;
+}
 
 
 /* ==========================================================================
